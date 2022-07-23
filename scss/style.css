@@ -1611,9 +1611,9 @@ footer {
     gap: 60px;
   }
   .blog__section:hover {
-    padding: 20px 20px;
-    box-shadow: inset -5px -5px 10px #FAFBFF, inset 5px 5px 10px 0px rgba(22, 27, 29, 0.3490196078);
-    transition: all 0.2s;
+    padding: 0;
+    box-shadow: none;
+    transition: none;
   }
 }
 @media (max-width: 500px) {
