@@ -1605,7 +1605,7 @@ footer {
 }
 @media (max-width: 1090px) {
   .blog__sections {
-    display: none;
+    display: grid;
     grid-template: 1fr 1fr 1fr/repeat(1, 70%);
     justify-content: center;
     gap: 60px;
